@@ -1,0 +1,445 @@
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'></meta>
+<style>body {
+  font-family: Helvetica;
+}
+
+table {
+  margin: 5px;
+}
+
+div.date-test-ran {
+  font-size: small;
+  font-style: italic;
+}
+
+table.features-table {
+  width: 800px;
+}
+
+table.summary-table {
+  width: 800px;
+  text-align: left;
+  font-weight: bold;
+  font-size: small;
+}
+
+table.summary-table th {
+  background: lightblue;
+  padding: 6px;
+}
+
+table.summary-table td {
+  background: #E0E0E0;
+  padding: 6px;
+}
+
+.feature-description {
+  font-size: large;
+  background: lightblue;
+  padding: 4px;
+}
+
+.feature-toc-error {
+	color: #F89A4F;
+}
+
+.feature-toc-failure {
+	color: #FF8080;
+}
+
+.feature-toc-ignored {
+	color: lightgray;
+}
+
+.feature-toc-pass {
+	color: green;
+}
+
+.feature-description.error {
+  background: #F89A4F;
+}
+
+.feature-description.failure {
+  background: #FF8080;
+}
+
+.feature-description.ignored {
+  background: lightgray;
+}
+
+div.problem-description {
+  padding: 10px;
+  background: pink;
+  border-radius: 10px;
+}
+
+div.problem-header {
+  font-weight: bold;
+  color: red;
+}
+
+div.problem-list {
+  
+}
+
+table.ex-table th {
+  background: lightblue;
+  padding: 0px 5px 0px 5px;
+}
+
+table.ex-table td {
+  background: #E0E0E0;
+  padding: 0px 5px 0px 5px;
+}
+
+table td {
+  min-width: 50px;
+}
+
+col.block-kind-col {
+  width: 70px;
+}
+
+span.spec-header {
+  font-weight: bold;
+}
+
+div.spec-text {
+  /*color: green;*/
+}
+
+div.spec-status {
+  font-style: italic;
+}
+
+.ignored {
+  color: gray;
+}
+
+td.ex-result {
+  text-align: center;
+  background: white !important;
+}
+
+.ex-pass {
+  color: darkgreen;
+}
+
+.ex-fail {
+  color: red;
+  font-weight: bold;
+}
+
+div.block-kind {
+  margin: 2px;
+  font-style: italic;
+}
+
+div.block-text {
+
+}
+
+div.footer {
+  text-align: center;
+  font-size: small;
+}
+</style>
+</head>
+<body>
+<h2>Report for session.ejb.CreationLotTestSpecification</h2>
+<hr></hr>
+<div class='summary-report'>
+<h3>Summary:</h3>
+<div class='date-test-ran'>Created on Sun May 10 00:50:40 CEST 2015 by S.ANDRIANAVONY</div>
+<table class='summary-table'>
+<thead>
+<th>Executed features</th>
+<th>Failures</th>
+<th>Errors</th>
+<th>Skipped</th>
+<th>Success rate</th>
+<th>Time</th>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>8</td>
+<td>0,0%</td>
+<td>0,779 seconds</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Features:</h3>
+<table class='features-table'>
+<colgroup>
+<col class='block-kind-col'></col>
+<col class='block-text-col'></col>
+</colgroup>
+<tbody>
+<ul id='toc'>
+<li>
+<a href='#1690095989' class='feature-toc-error'>Au debut de cet test il n y a pas de lot dans la base de donne</a>
+</li>
+<li>
+<a href='#-1607927503' class='feature-toc-ignored'>Test de creation du lot avec Batch name , article, compagnie </a>
+</li>
+<li>
+<a href='#-205584015' class='feature-toc-ignored'>apres cet test il n y a pas de lot dans la base de donne</a>
+</li>
+<li>
+<a href='#943110454' class='feature-toc-ignored'>Recherche le meme lot avec le code article, batch name, company </a>
+</li>
+<li>
+<a href='#1609470114' class='feature-toc-ignored'>Recherche le meme lot avec le batchId </a>
+</li>
+<li>
+<a href='#493566741' class='feature-toc-ignored'>Recherche un lot avec un batchId inexistant </a>
+</li>
+<li>
+<a href='#1711165223' class='feature-toc-ignored'>Test de creation du lot avec le nom espece, variete, stade, generation , Batch name et compagnie </a>
+</li>
+<li>
+<a href='#-1068215762' class='feature-toc-ignored'>Test de creation du lot avec une variete existante sur un autre stade, generation , Batch name et compagnie </a>
+</li>
+</ul>
+<tr>
+<td colspan='10'>
+<div class='feature-description error' id='1690095989'>Au debut de cet test il n y a pas de lot dans la base de donne
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<pre>java.lang.RuntimeException: Could not invoke deployment method: public static org.jboss.shrinkwrap.api.spec.WebArchive session.ejb.CreationLotTestSpecification.createDeployment()</pre>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='-1607927503'>Test de creation du lot avec Batch name , article, compagnie 
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>J'enregistre le lot </div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'> Alors l article associe au lot est associe au bon espece, a la bonne variete ...</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='-205584015'>apres cet test il n y a pas de lot dans la base de donne
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='943110454'>Recherche le meme lot avec le code article, batch name, company 
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'> On demande de creer le meme lot deux fois </div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'> Alors on retourne le meme lot</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='1609470114'>Recherche le meme lot avec le batchId 
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'> On cherche le lot avec son identifiant </div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'> Alors obtient le meme lot </div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='493566741'>Recherche un lot avec un batchId inexistant 
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'> Si on cherche un lot avec un identifiant inexistant </div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'> Alors une exception est lance </div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='1711165223'>Test de creation du lot avec le nom espece, variete, stade, generation , Batch name et compagnie 
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>J'enregistre le lot </div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'> Alors l article associe au lot est associe au bon espece, a la bonne variete ...</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='-1068215762'>Test de creation du lot avec une variete existante sur un autre stade, generation , Batch name et compagnie 
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>J'enregistre le lot </div>
+</td>
+</tr>
+<tr class='ignored'>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'> Alors l article associe au lot est associe au bon espece, a la bonne variete ...</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr></hr>
+<div class='footer'>Generated by <a href='https://github.com/renatoathaydes/spock-reports'>Athaydes Spock Reports</a></div>
+</body>
+</html>
